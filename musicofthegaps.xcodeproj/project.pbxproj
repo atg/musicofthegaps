@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7547247814F31E2D00B065CB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7547247714F31E2D00B065CB /* Cocoa.framework */; };
+		7547248214F31E2D00B065CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7547248014F31E2D00B065CB /* InfoPlist.strings */; };
+		7547248414F31E2D00B065CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7547248314F31E2D00B065CB /* main.m */; };
+		7547248814F31E2D00B065CB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7547248614F31E2D00B065CB /* Credits.rtf */; };
+		7547248B14F31E2D00B065CB /* MOGAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7547248A14F31E2D00B065CB /* MOGAppDelegate.mm */; };
+		7547248E14F31E2E00B065CB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7547248C14F31E2E00B065CB /* MainMenu.xib */; };
+		7547249B14F31E7900B065CB /* MOGCanvas.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7547249A14F31E7900B065CB /* MOGCanvas.mm */; };
+		7547249E14F3225D00B065CB /* MOGSegment.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7547249D14F3225D00B065CB /* MOGSegment.mm */; };
+		754724A014F322B500B065CB /* MOGCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7547249F14F322B500B065CB /* MOGCore.cpp */; };
+		754724A414F33F5000B065CB /* MOGScale.mm in Sources */ = {isa = PBXBuildFile; fileRef = 754724A314F33F5000B065CB /* MOGScale.mm */; };
+		754724A714F33F8E00B065CB /* MOGQuant.mm in Sources */ = {isa = PBXBuildFile; fileRef = 754724A614F33F8E00B065CB /* MOGQuant.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7547247314F31E2D00B065CB /* musicofthegaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = musicofthegaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7547247714F31E2D00B065CB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7547247A14F31E2D00B065CB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7547247B14F31E2D00B065CB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7547247C14F31E2D00B065CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7547247F14F31E2D00B065CB /* musicofthegaps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "musicofthegaps-Info.plist"; sourceTree = "<group>"; };
+		7547248114F31E2D00B065CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7547248314F31E2D00B065CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7547248514F31E2D00B065CB /* musicofthegaps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "musicofthegaps-Prefix.pch"; sourceTree = "<group>"; };
+		7547248714F31E2D00B065CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7547248914F31E2D00B065CB /* MOGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOGAppDelegate.h; sourceTree = "<group>"; };
+		7547248A14F31E2D00B065CB /* MOGAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MOGAppDelegate.mm; sourceTree = "<group>"; };
+		7547248D14F31E2E00B065CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7547249914F31E7900B065CB /* MOGCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOGCanvas.h; sourceTree = "<group>"; };
+		7547249A14F31E7900B065CB /* MOGCanvas.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MOGCanvas.mm; sourceTree = "<group>"; };
+		7547249C14F3225C00B065CB /* MOGSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOGSegment.h; sourceTree = "<group>"; };
+		7547249D14F3225D00B065CB /* MOGSegment.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MOGSegment.mm; sourceTree = "<group>"; };
+		7547249F14F322B500B065CB /* MOGCore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MOGCore.cpp; sourceTree = "<group>"; };
+		754724A114F322C800B065CB /* MOGCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOGCore.h; sourceTree = "<group>"; };
+		754724A214F33F5000B065CB /* MOGScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOGScale.h; sourceTree = "<group>"; };
+		754724A314F33F5000B065CB /* MOGScale.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MOGScale.mm; sourceTree = "<group>"; };
+		754724A514F33F8E00B065CB /* MOGQuant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOGQuant.h; sourceTree = "<group>"; };
+		754724A614F33F8E00B065CB /* MOGQuant.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MOGQuant.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7547247014F31E2D00B065CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7547247814F31E2D00B065CB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7547246814F31E2900B065CB = {
+			isa = PBXGroup;
+			children = (
+				7547247D14F31E2D00B065CB /* musicofthegaps */,
+				7547247614F31E2D00B065CB /* Frameworks */,
+				7547247414F31E2D00B065CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7547247414F31E2D00B065CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7547247314F31E2D00B065CB /* musicofthegaps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7547247614F31E2D00B065CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7547247714F31E2D00B065CB /* Cocoa.framework */,
+				7547247914F31E2D00B065CB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7547247914F31E2D00B065CB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7547247A14F31E2D00B065CB /* AppKit.framework */,
+				7547247B14F31E2D00B065CB /* CoreData.framework */,
+				7547247C14F31E2D00B065CB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7547247D14F31E2D00B065CB /* musicofthegaps */ = {
+			isa = PBXGroup;
+			children = (
+				7547248914F31E2D00B065CB /* MOGAppDelegate.h */,
+				7547248A14F31E2D00B065CB /* MOGAppDelegate.mm */,
+				7547249914F31E7900B065CB /* MOGCanvas.h */,
+				7547249A14F31E7900B065CB /* MOGCanvas.mm */,
+				7547249C14F3225C00B065CB /* MOGSegment.h */,
+				7547249D14F3225D00B065CB /* MOGSegment.mm */,
+				7547249F14F322B500B065CB /* MOGCore.cpp */,
+				754724A114F322C800B065CB /* MOGCore.h */,
+				7547248C14F31E2E00B065CB /* MainMenu.xib */,
+				7547247E14F31E2D00B065CB /* Supporting Files */,
+				754724A214F33F5000B065CB /* MOGScale.h */,
+				754724A314F33F5000B065CB /* MOGScale.mm */,
+				754724A514F33F8E00B065CB /* MOGQuant.h */,
+				754724A614F33F8E00B065CB /* MOGQuant.mm */,
+			);
+			path = musicofthegaps;
+			sourceTree = "<group>";
+		};
+		7547247E14F31E2D00B065CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7547247F14F31E2D00B065CB /* musicofthegaps-Info.plist */,
+				7547248014F31E2D00B065CB /* InfoPlist.strings */,
+				7547248314F31E2D00B065CB /* main.m */,
+				7547248514F31E2D00B065CB /* musicofthegaps-Prefix.pch */,
+				7547248614F31E2D00B065CB /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7547247214F31E2D00B065CB /* musicofthegaps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7547249114F31E2E00B065CB /* Build configuration list for PBXNativeTarget "musicofthegaps" */;
+			buildPhases = (
+				7547246F14F31E2D00B065CB /* Sources */,
+				7547247014F31E2D00B065CB /* Frameworks */,
+				7547247114F31E2D00B065CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = musicofthegaps;
+			productName = musicofthegaps;
+			productReference = 7547247314F31E2D00B065CB /* musicofthegaps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7547246A14F31E2900B065CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 7547246D14F31E2900B065CB /* Build configuration list for PBXProject "musicofthegaps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7547246814F31E2900B065CB;
+			productRefGroup = 7547247414F31E2D00B065CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7547247214F31E2D00B065CB /* musicofthegaps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7547247114F31E2D00B065CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7547248214F31E2D00B065CB /* InfoPlist.strings in Resources */,
+				7547248814F31E2D00B065CB /* Credits.rtf in Resources */,
+				7547248E14F31E2E00B065CB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7547246F14F31E2D00B065CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7547248414F31E2D00B065CB /* main.m in Sources */,
+				7547248B14F31E2D00B065CB /* MOGAppDelegate.mm in Sources */,
+				7547249B14F31E7900B065CB /* MOGCanvas.mm in Sources */,
+				7547249E14F3225D00B065CB /* MOGSegment.mm in Sources */,
+				754724A014F322B500B065CB /* MOGCore.cpp in Sources */,
+				754724A414F33F5000B065CB /* MOGScale.mm in Sources */,
+				754724A714F33F8E00B065CB /* MOGQuant.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7547248014F31E2D00B065CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7547248114F31E2D00B065CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7547248614F31E2D00B065CB /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7547248714F31E2D00B065CB /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7547248C14F31E2E00B065CB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7547248D14F31E2E00B065CB /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7547248F14F31E2E00B065CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7547249014F31E2E00B065CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7547249214F31E2E00B065CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "musicofthegaps/musicofthegaps-Prefix.pch";
+				INFOPLIST_FILE = "musicofthegaps/musicofthegaps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7547249314F31E2E00B065CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "musicofthegaps/musicofthegaps-Prefix.pch";
+				INFOPLIST_FILE = "musicofthegaps/musicofthegaps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7547246D14F31E2900B065CB /* Build configuration list for PBXProject "musicofthegaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7547248F14F31E2E00B065CB /* Debug */,
+				7547249014F31E2E00B065CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7547249114F31E2E00B065CB /* Build configuration list for PBXNativeTarget "musicofthegaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7547249214F31E2E00B065CB /* Debug */,
+				7547249314F31E2E00B065CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7547246A14F31E2900B065CB /* Project object */;
+}
